@@ -1,0 +1,18 @@
+query Usage {
+  usage {
+    usage {
+      Models {
+        limit
+        usage
+      }
+      Apps {
+        limit
+        usage
+      }
+      Devices {
+        limit
+        usage
+      }
+    }
+  }
+}

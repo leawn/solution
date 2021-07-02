@@ -1,0 +1,18 @@
+query Apps {
+  apps {
+    apps {
+      id
+      name
+      deviceCount
+      platforms {
+        id
+        platform
+        modelTarget {
+          model
+          runtime
+          version
+        }
+      }
+    }
+  }
+}

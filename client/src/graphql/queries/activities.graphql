@@ -1,0 +1,9 @@
+query Activities {
+  activites {
+    activities {
+      date
+      desc
+      type
+    }
+  }
+}

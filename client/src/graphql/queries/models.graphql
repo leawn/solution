@@ -1,0 +1,13 @@
+query Models {
+  models {
+    models {
+      id
+      name
+      source
+      tags
+      versions {
+        name
+      }
+    }
+  }
+}
